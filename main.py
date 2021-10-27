@@ -34,3 +34,4 @@ async def show_image(file_name):
 # ++++++++++++++++++++++++++++++++++++++++++++++ RUN SERVICE ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 if __name__ == "__main__":
     uvicorn.run(app, host='0.0.0.0',port=80, debug=True)
+w
